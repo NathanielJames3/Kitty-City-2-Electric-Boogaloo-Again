@@ -1,0 +1,79 @@
+{
+	"name": "gameover screen",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 348618409935051
+				}
+			],
+			"actions": [],
+			"sid": 297584768553182
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 763107637803457
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 699583873205840
+				}
+			],
+			"sid": 545963246624979
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 632845171512446,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "clickHereToReplay"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 959790214429647
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 880263967562985,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "exitToMenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 402018196406706,
+					"parameters": {
+						"layout": "introscreen"
+					}
+				}
+			],
+			"sid": 238499858232898
+		}
+	],
+	"sid": 909485904572839
+}

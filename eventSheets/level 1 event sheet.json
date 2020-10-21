@@ -1,0 +1,518 @@
+{
+	"name": "Level 1 event sheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "bg_speed2",
+			"type": "number",
+			"initialValue": "200",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 843102201658823
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 368547090323700,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "kitty",
+					"sid": 335940744523333,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 473091587757707
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 649636718423368
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 121956220519017,
+					"parameters": {
+						"audio-file": "Electro Opening Theme",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 853815044671143
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 688750438185558,
+					"parameters": {
+						"key": 49
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "kitty",
+					"sid": 810599221666293,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 883461008164073
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 564840064688005,
+					"parameters": {
+						"key": 50
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "kitty",
+					"sid": 751815273466370,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 405876976407959
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 321091003515381,
+					"parameters": {
+						"key": 51
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 643633576832917
+				}
+			],
+			"sid": 663919372559613
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 690740475486846,
+					"parameters": {
+						"key": 52
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "kitty",
+					"sid": 959801069809162,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "jump"
+					}
+				}
+			],
+			"sid": 472586629431785
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 404728656869359,
+					"parameters": {
+						"key": 53
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 993778666354183
+				}
+			],
+			"sid": 401465340360344
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 740880789165221,
+					"parameters": {
+						"key": 54
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 637680756587553
+				}
+			],
+			"sid": 939300690621148
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 737614920411332,
+					"parameters": {
+						"key": 55
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "kitty",
+					"sid": 448685275634621,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "jump"
+					}
+				}
+			],
+			"sid": 494662832578914
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 946779109798609,
+					"parameters": {
+						"key": 56
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 575633795977510
+				}
+			],
+			"sid": 360797601828256
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 541068201276251,
+					"parameters": {
+						"key": 57
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "kitty",
+					"sid": 851865108152102,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 548917926686679
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 796967075711861,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 826830356375396
+				}
+			],
+			"sid": 541457051924447
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 209775335321255,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 962224246654277
+				}
+			],
+			"sid": 853733724079870
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 356608331222234,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 910712503859289
+				}
+			],
+			"sid": 219423625265074
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "kitty",
+					"sid": 836731483380720,
+					"parameters": {
+						"object": "fish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 360577525831655,
+					"parameters": {
+						"layout": "you winscreen"
+					}
+				}
+			],
+			"sid": 999417893911830
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "kitty",
+					"sid": 828738009201589
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 971294474741990,
+					"parameters": {
+						"layout": "game over screen"
+					}
+				}
+			],
+			"sid": 103786467240634
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 736127321696864
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 452001971579478
+				}
+			],
+			"sid": 683430495811373
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "kitty",
+					"sid": 328408542874790,
+					"parameters": {
+						"object": "fish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 683696063624100,
+					"parameters": {
+						"layout": "you winscreen"
+					}
+				}
+			],
+			"sid": 241667754973856
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "kitty",
+					"sid": 861044902375056,
+					"parameters": {
+						"object": "death"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 400655911214642,
+					"parameters": {
+						"layout": "you fell"
+					}
+				}
+			],
+			"sid": 668114679548991
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 131172596951102
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "movingBG",
+					"sid": 608889437258445,
+					"parameters": {
+						"x": "movingBG.X-bg_speed2* dt"
+					}
+				}
+			],
+			"sid": 624423983822740
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "movingBG",
+					"sid": 424395828793174,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-1136"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "movingBG",
+					"sid": 559742691647677,
+					"parameters": {
+						"x": "movingBG.X + 2272"
+					}
+				}
+			],
+			"sid": 937867416716329
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "movingBG",
+					"sid": 495394630450329,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-1136"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "movingBG",
+					"sid": 845972780600743,
+					"parameters": {
+						"x": "movingBG.X + 2272"
+					}
+				}
+			],
+			"sid": 992873274373349
+		}
+	],
+	"sid": 462337385455810
+}

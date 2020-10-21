@@ -1,0 +1,61 @@
+{
+	"name": "fish",
+	"plugin-id": "Sprite",
+	"sid": 439858672939763,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 131,
+						"height": 79,
+						"originX": 0.7099236641221374,
+						"originY": 0.8987341772151899,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2216856,
+						"collisionPoly": {
+							"points": [
+								0.057251908396946403,
+								0.31012658227848117,
+								1,
+								0.01898734177215199,
+								0.9885496183206101,
+								0.9556962025316441,
+								0.007633587786259433,
+								0.8354430379746821
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 2
+					},
+					{
+						"width": 131,
+						"height": 79,
+						"originX": 0.7099236641221374,
+						"originY": 0.8987341772151899,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6858618,
+						"useCollisionPoly": true,
+						"duration": 2
+					}
+				],
+				"sid": 154324420109807,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,299 @@
+{
+	"name": "nate's event sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 750088338191796,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 331913835697185
+				}
+			],
+			"sid": 429886739664447
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 681857285607754,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 213997343900389
+				}
+			],
+			"sid": 834360484871617
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 392772510044089,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 276050524925115
+				}
+			],
+			"sid": 813110976898859
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 539128004521368,
+					"parameters": {
+						"key": 40
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "kitty",
+					"sid": 680166810951017
+				}
+			],
+			"sid": 383856608685262
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 363948391089844
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 366488037554232,
+					"parameters": {
+						"audio-file": "Electro Opening Theme",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 974638468267371
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 159357355735941,
+					"parameters": {
+						"key": 65
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "kitty",
+					"sid": 441628702359302,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "kitty",
+					"sid": 245052335453796,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 457048143096817
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 645111797374926,
+					"parameters": {
+						"key": 66
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "kitty",
+					"sid": 580883689604977,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "jump"
+					}
+				}
+			],
+			"sid": 468217525969773
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 329476101361845,
+					"parameters": {
+						"key": 80
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "kitty",
+					"sid": 338479031254338,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "kitty",
+					"sid": 541299715049219,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 686448817307684
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "kitty",
+					"sid": 530607218099951,
+					"parameters": {
+						"object": "death"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 789493165132214,
+					"parameters": {
+						"layout": "you fell"
+					}
+				}
+			],
+			"sid": 363433526639404
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "kitty",
+					"sid": 497944942417474,
+					"parameters": {
+						"object": "fish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 731998840524995,
+					"parameters": {
+						"layout": "you winscreen"
+					}
+				}
+			],
+			"sid": 437423576792715
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 537575433866238
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "movingBG",
+					"sid": 747463920546208,
+					"parameters": {
+						"x": "movingBG.X-bg_speed2* dt"
+					}
+				}
+			],
+			"sid": 305180207689610
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "movingBG",
+					"sid": 617124299570779,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-1136"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "movingBG",
+					"sid": 120801611576059,
+					"parameters": {
+						"x": "movingBG.X + 2272"
+					}
+				}
+			],
+			"sid": 815603827958318
+		}
+	],
+	"sid": 610693777077880
+}

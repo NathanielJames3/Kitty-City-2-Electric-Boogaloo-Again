@@ -1,0 +1,335 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 21800,
+	"name": "straycat",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		}
+	],
+	"uniqueId": "sm2tnge69s7",
+	"objectTypes": {
+		"items": [
+			"TiledBackground",
+			"Keyboard",
+			"movingBG",
+			"kitty",
+			"StartButton",
+			"playGame",
+			"KittyCity",
+			"TiledBackground4",
+			"TiledBackground5",
+			"Congrats",
+			"gameOver",
+			"tryAgain",
+			"Audio",
+			"Sprite",
+			"Sprite2",
+			"clickHereToReplay",
+			"names",
+			"Mouse",
+			"Touch",
+			"fish",
+			"Sprite3",
+			"Text5",
+			"Sprite4",
+			"Yikes",
+			"Text6",
+			"Sprite5",
+			"exitToMenu",
+			"Sprite6",
+			"instructions",
+			"OR",
+			"death",
+			"Sprite7",
+			"Sprite8",
+			"Text",
+			"Sprite9",
+			"backToMenu"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"introscreen",
+			"Nate's level",
+			"James' level",
+			"you winscreen",
+			"game over screen",
+			"instructions",
+			"you fell"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Level 1 event sheet",
+			"intro screen eventsheet",
+			"you win eventsheet",
+			"gameover screen",
+			"instruction event sheet",
+			"James' ES",
+			"nate's event sheet",
+			"you fell event sheet"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "sfx_interact.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 725285057575659
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "Electro Opening Theme.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 847692733046921
+				},
+				{
+					"name": "Music Box Game Over III.mp3",
+					"type": "audio/mpeg",
+					"sid": 570238341599960
+				},
+				{
+					"name": "oga_Potential.mp3",
+					"type": "audio/mpeg",
+					"sid": 277483079723776
+				},
+				{
+					"name": "winfretless.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 931983816267676
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 222875552503732,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 497649046459391,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 287209455088780,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 997494199057543,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 121208033924005,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 845215345841044,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 333927763608317,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useHighDpi": true,
+		"orientations": "landscape",
+		"enableWebGL": true,
+		"gpuPreference": "high-performance",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"clearBackground": true,
+		"enhancedAccelerationPrecision": true,
+		"cordovaiOSScheme": "app"
+	},
+	"viewportWidth": 1136,
+	"viewportHeight": 640,
+	"firstLayout": null
+}
