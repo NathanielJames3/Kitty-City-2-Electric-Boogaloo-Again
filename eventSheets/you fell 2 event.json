@@ -1,0 +1,58 @@
+{
+	"name": "you fell 2 event",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 493915991359632,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "clickHereToReplay"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 962313513447154,
+					"parameters": {
+						"layout": "James' level"
+					}
+				}
+			],
+			"sid": 115046138329532
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 569688574071902,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "exitToMenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 192000153573359,
+					"parameters": {
+						"layout": "introscreen"
+					}
+				}
+			],
+			"sid": 601008773908755
+		}
+	],
+	"sid": 639164200367284
+}
