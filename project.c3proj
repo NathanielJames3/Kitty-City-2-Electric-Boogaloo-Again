@@ -85,6 +85,30 @@
 			"author": "Scirra",
 			"version": "r218",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
 		}
 	],
 	"uniqueId": "sm2tnge69s7",
@@ -125,7 +149,13 @@
 			"Sprite8",
 			"Text",
 			"Sprite9",
-			"backToMenu"
+			"backToMenu",
+			"Sprite10",
+			"Sprite11",
+			"Sprite12",
+			"Sprite13",
+			"Sprite14",
+			"solid"
 		],
 		"subfolders": []
 	},
@@ -139,18 +169,19 @@
 		"items": [
 			"introscreen",
 			"Nate's level",
+			"Erica's level",
 			"James' level",
 			"you winscreen",
 			"game over screen",
 			"instructions",
 			"you fell",
-			"you fell2"
+			"you fell2",
+			"you fell3"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Level 1 event sheet",
 			"intro screen eventsheet",
 			"you win eventsheet",
 			"gameover screen",
@@ -158,7 +189,9 @@
 			"James' ES",
 			"nate's event sheet",
 			"you fell event sheet",
-			"you fell 2 event"
+			"you fell 2 event",
+			"erica's event sheet",
+			"you fell 3 event"
 		],
 		"subfolders": []
 	},

@@ -1,5 +1,5 @@
 {
-	"name": "nate's event sheet",
+	"name": "erica's event sheet",
 	"events": [
 		{
 			"eventType": "block",
@@ -7,7 +7,7 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 750088338191796,
+					"sid": 292851262492362,
 					"parameters": {
 						"key": 39
 					}
@@ -17,10 +17,10 @@
 				{
 					"id": "destroy",
 					"objectClass": "kitty",
-					"sid": 331913835697185
+					"sid": 493075684755496
 				}
 			],
-			"sid": 429886739664447
+			"sid": 616190142257633
 		},
 		{
 			"eventType": "block",
@@ -28,7 +28,7 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 681857285607754,
+					"sid": 562839136199164,
 					"parameters": {
 						"key": 37
 					}
@@ -38,10 +38,10 @@
 				{
 					"id": "destroy",
 					"objectClass": "kitty",
-					"sid": 213997343900389
+					"sid": 465083102503137
 				}
 			],
-			"sid": 834360484871617
+			"sid": 369772293935647
 		},
 		{
 			"eventType": "block",
@@ -49,7 +49,7 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 392772510044089,
+					"sid": 422928684955173,
 					"parameters": {
 						"key": 38
 					}
@@ -59,10 +59,10 @@
 				{
 					"id": "destroy",
 					"objectClass": "kitty",
-					"sid": 276050524925115
+					"sid": 707355089700876
 				}
 			],
-			"sid": 813110976898859
+			"sid": 633863006021397
 		},
 		{
 			"eventType": "block",
@@ -70,7 +70,7 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 539128004521368,
+					"sid": 502780889163925,
 					"parameters": {
 						"key": 40
 					}
@@ -80,10 +80,10 @@
 				{
 					"id": "destroy",
 					"objectClass": "kitty",
-					"sid": 680166810951017
+					"sid": 751218261867181
 				}
 			],
-			"sid": 383856608685262
+			"sid": 554354620994375
 		},
 		{
 			"eventType": "block",
@@ -91,14 +91,14 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 363948391089844
+					"sid": 837547032213915
 				}
 			],
 			"actions": [
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 366488037554232,
+					"sid": 907810711603067,
 					"parameters": {
 						"audio-file": "Electro Opening Theme",
 						"loop": "looping",
@@ -107,7 +107,7 @@
 					}
 				}
 			],
-			"sid": 974638468267371
+			"sid": 830962679840435
 		},
 		{
 			"eventType": "block",
@@ -115,9 +115,9 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 159357355735941,
+					"sid": 701483497048666,
 					"parameters": {
-						"key": 65
+						"key": 221
 					}
 				}
 			],
@@ -125,7 +125,7 @@
 				{
 					"id": "simulate-control",
 					"objectClass": "kitty",
-					"sid": 441628702359302,
+					"sid": 209002686261231,
 					"behaviorType": "Platform",
 					"parameters": {
 						"control": "left"
@@ -134,13 +134,13 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "kitty",
-					"sid": 245052335453796,
+					"sid": 907673024690865,
 					"parameters": {
 						"state": "mirrored"
 					}
 				}
 			],
-			"sid": 457048143096817
+			"sid": 523837139708205
 		},
 		{
 			"eventType": "block",
@@ -148,9 +148,9 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 645111797374926,
+					"sid": 695860776959834,
 					"parameters": {
-						"key": 66
+						"key": 70
 					}
 				}
 			],
@@ -158,14 +158,14 @@
 				{
 					"id": "simulate-control",
 					"objectClass": "kitty",
-					"sid": 580883689604977,
+					"sid": 829369472037134,
 					"behaviorType": "Platform",
 					"parameters": {
 						"control": "jump"
 					}
 				}
 			],
-			"sid": 468217525969773
+			"sid": 139594090417440
 		},
 		{
 			"eventType": "block",
@@ -173,9 +173,9 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 329476101361845,
+					"sid": 794840921717170,
 					"parameters": {
-						"key": 80
+						"key": 84
 					}
 				}
 			],
@@ -183,7 +183,7 @@
 				{
 					"id": "simulate-control",
 					"objectClass": "kitty",
-					"sid": 338479031254338,
+					"sid": 305709214485128,
 					"behaviorType": "Platform",
 					"parameters": {
 						"control": "right"
@@ -192,13 +192,13 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "kitty",
-					"sid": 541299715049219,
+					"sid": 131041238141324,
 					"parameters": {
 						"state": "not-mirrored"
 					}
 				}
 			],
-			"sid": 686448817307684
+			"sid": 423844985409212
 		},
 		{
 			"eventType": "block",
@@ -206,7 +206,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "kitty",
-					"sid": 530607218099951,
+					"sid": 413432087968776,
 					"parameters": {
 						"object": "death"
 					}
@@ -216,13 +216,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 789493165132214,
+					"sid": 956609987003611,
 					"parameters": {
-						"layout": "you fell"
+						"layout": "you fell3"
 					}
 				}
 			],
-			"sid": 363433526639404
+			"sid": 736327530745363
 		},
 		{
 			"eventType": "block",
@@ -230,7 +230,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "kitty",
-					"sid": 497944942417474,
+					"sid": 334717910037891,
 					"parameters": {
 						"object": "fish"
 					}
@@ -240,13 +240,13 @@
 				{
 					"id": "go-to-nextprevious-layout",
 					"objectClass": "System",
-					"sid": 199083932030485,
+					"sid": 739883980498649,
 					"parameters": {
 						"which": "next"
 					}
 				}
 			],
-			"sid": 437423576792715
+			"sid": 107521809298842
 		},
 		{
 			"eventType": "block",
@@ -254,11 +254,11 @@
 				{
 					"id": "every-tick",
 					"objectClass": "System",
-					"sid": 537575433866238
+					"sid": 243397920585505
 				}
 			],
 			"actions": [],
-			"sid": 305180207689610
+			"sid": 164864431358390
 		},
 		{
 			"eventType": "block",
@@ -266,7 +266,7 @@
 				{
 					"id": "compare-x",
 					"objectClass": "movingBG",
-					"sid": 617124299570779,
+					"sid": 259898624987149,
 					"parameters": {
 						"comparison": 3,
 						"x-co-ordinate": "-1136"
@@ -277,13 +277,13 @@
 				{
 					"id": "set-x",
 					"objectClass": "movingBG",
-					"sid": 120801611576059,
+					"sid": 369335603707399,
 					"parameters": {
 						"x": "movingBG.X + 2272"
 					}
 				}
 			],
-			"sid": 815603827958318
+			"sid": 531903663291509
 		},
 		{
 			"eventType": "block",
@@ -291,7 +291,7 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 236417693038940,
+					"sid": 170779295890889,
 					"parameters": {
 						"key": 82
 					}
@@ -301,11 +301,11 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 850820825601930
+					"sid": 286041918827879
 				}
 			],
-			"sid": 102280529472388
+			"sid": 266729606455564
 		}
 	],
-	"sid": 610693777077880
+	"sid": 385793319384860
 }

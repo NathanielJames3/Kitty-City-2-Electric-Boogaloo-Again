@@ -257,16 +257,7 @@
 					"sid": 604391895953624
 				}
 			],
-			"actions": [
-				{
-					"id": "set-x",
-					"objectClass": "movingBG",
-					"sid": 600230842715869,
-					"parameters": {
-						"x": "movingBG.X-bg_speed2* dt"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 573827631877777
 		},
 		{

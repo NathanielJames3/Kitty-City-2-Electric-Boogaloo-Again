@@ -1,0 +1,58 @@
+{
+	"name": "you fell 3 event",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 720807339060818,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "clickHereToReplay"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 683551740513174,
+					"parameters": {
+						"layout": "Erica's level"
+					}
+				}
+			],
+			"sid": 533369984187142
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 116278832574332,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "exitToMenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 261087655546953,
+					"parameters": {
+						"layout": "introscreen"
+					}
+				}
+			],
+			"sid": 970997188323627
+		}
+	],
+	"sid": 204868058191313
+}
